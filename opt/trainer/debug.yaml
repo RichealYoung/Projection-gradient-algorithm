@@ -1,0 +1,17 @@
+# @package _group_
+gpus: -1
+auto_select_gpus: true
+amp_backend: native # Use PyTorch AMP (‘native’), or NVIDIA apex (‘apex’).
+benchmark: true
+check_val_every_n_epoch: 1
+limit_test_batches: 2 # 0~1 or >1
+limit_val_batches: 2 # 0~1 or >1
+limit_train_batches: 2 # 0~1 or >1
+max_epochs: 1 # Stop training once this number of epochs is reached
+max_steps: ~ # Stop training after this number of steps Training will stop if max_steps or max_epochs have reached
+num_sanity_val_steps: 0
+# Sanity check runs n batches of val before starting the training routine. This catches any bugs
+# in your validation without having to wait for the first validation check. The Trainer uses 2 steps
+# by default. Turn it off or modify it here.
+profiler: ~ # simple or advanced. To profile individual steps during training and assist in identifying bottlenecks.
+log_every_n_steps: 1

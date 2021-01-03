@@ -1,0 +1,12 @@
+# @package _group_
+gpus: -1
+auto_select_gpus: true
+amp_backend: native # Use PyTorch AMP (‘native’), or NVIDIA apex (‘apex’).
+benchmark: true
+check_val_every_n_epoch: 100000
+gradient_clip_val: 0
+max_epochs: 500 # Stop training once this number of epochs is reached
+resume_from_checkpoint: ~ # path of .ckpt
+log_every_n_steps: 20
+default_root_dir: ~ # default is os.getcwd()
+auto_lr_find: true

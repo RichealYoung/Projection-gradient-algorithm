@@ -1,0 +1,43 @@
+# @package _group_
+train:
+  crop_w: 0
+  crop_h: 0
+  crop_w_start: 0
+  crop_h_start: 0
+  mod_by: 0
+  resize_w: 0  # must be mul of 16
+  resize_h: 0  # must be mul of 16
+  randomcrop: 0
+  fliprot: false
+  normalize: 0
+  mean: 0
+  std: 1
+  x1_ratio: 0
+val:
+  crop_w: 0
+  crop_h: 0
+  crop_w_start: 0
+  crop_h_start: 0
+  mod_by: 0
+  resize_w: 0 # must be mul of 16
+  resize_h: 0 # must be mul of 16
+  randomcrop: 0
+  fliprot: false
+  normalize: 0
+  mean: 0
+  std: 1
+  x1_ratio: 0
+test:
+  crop_w: 0
+  crop_h: 0
+  crop_w_start: 0
+  crop_h_start: 0
+  mod_by: 0
+  resize_w: 0 # must be mul of 16
+  resize_h: 0 # must be mul of 16
+  randomcrop: 0
+  fliprot: false
+  normalize: 0
+  mean: 0
+  std: 1
+  x1_ratio: 0

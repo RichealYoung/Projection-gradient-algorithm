@@ -1,0 +1,8 @@
+defaults:
+ - Data/Dataset: train
+ - Data/Transform: default
+ - Data/Dataloader: default
+ - Model/Network: default
+ - Model/Loss: default
+ - Model/Optim: default
+ - trainer: train

@@ -1,0 +1,13 @@
+# @package _group_
+train:
+  batch_size: 10
+  shuffle: true
+  num_workers: 20
+val:
+  batch_size: 10
+  shuffle: false
+  num_workers: 20
+test:
+  batch_size: 1
+  shuffle: false
+  num_workers: 20

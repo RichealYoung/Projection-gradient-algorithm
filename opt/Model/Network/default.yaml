@@ -1,0 +1,10 @@
+# @package _group_
+rpgd:
+  c: 0.8
+  alpha: 1
+  gamma0: [0.6 ,0.8 ,1.0 ,1.5 ,2.0]
+  tol: 1e-2
+  h: E:\OneDrive\研究生\课程\矩阵分析与应用\作业\仿照大作业\dataset\H_weight.mat
+  n_test_iter: 100
+  dk: 10
+  dgamma: 2
