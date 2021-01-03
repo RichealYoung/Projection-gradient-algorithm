@@ -1,0 +1,13 @@
+# @package _group_
+train:
+  input_path: .\dataset\train_x
+  target_path: .\dataset\train_y
+  length: 50
+val:
+  input_path: .\dataset\test_x
+  target_path: .\dataset\train_y
+  length: 10
+test:
+  input_path: .\dataset\test_x
+  target_path: .\dataset\train_y
+  length: 10
